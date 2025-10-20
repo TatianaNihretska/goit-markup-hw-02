@@ -24,7 +24,8 @@ ul {
 .web-logo-part {
   color: #2e2f42;
 }
-.web-navi a {
+
+.web-navi {
   font-weight: 500;
   font-size: 16px;
 
@@ -33,11 +34,11 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.web-navi a:hover,
-.web-navi a:focus {
+.web-navi:hover,
+.web-navi:focus {
   color: #404bbf;
 }
-.web-address a {
+.web-address {
   font-weight: 400;
   font-size: 16px;
   font-style: normal;
@@ -47,8 +48,8 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.web-address a:hover,
-.web-address a:focus {
+.web-address:hover,
+.web-address:focus {
   color: #404bbf;
 }
 
@@ -68,7 +69,7 @@ ul {
 }
 
 .main-page-btn {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
 
@@ -181,5 +182,8 @@ ul {
   /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.web-logo-footer {
   color: #f4f4fd;
 }
