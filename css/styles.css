@@ -38,6 +38,9 @@ ul {
 .web-navi:focus {
   color: #404bbf;
 }
+.web-adress-section {
+  font-style: normal;
+}
 .web-address {
   font-weight: 400;
   font-size: 16px;
